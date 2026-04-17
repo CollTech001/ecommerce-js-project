@@ -1,0 +1,214 @@
+/* ==================== ORDERS PAGE - Modern Premium Layout ==================== */
+
+.main {
+  max-width: 1100px;
+  margin: 100px auto 120px;
+  padding: 0 24px;
+  background-color: #0a0a0a;
+  min-height: calc(100vh - 200px);
+}
+
+.page-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+/* Orders Grid */
+.orders-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 48px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Single Order Card */
+.order-container {
+  background-color: #1a1a1a;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid #333;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.order-container:hover {
+  transform: translateY(-8px);
+}
+
+/* Order Header */
+.order-header {
+  background-color: #222222;
+  border-bottom: 1px solid #333;
+  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.order-header-left-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.order-header-label {
+  font-weight: 600;
+  color: #aaaaaa;
+  font-size: 15px;
+}
+
+.order-date,
+.order-total {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.order-header-right-section {
+  color: #00d4ff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Responsive for header */
+@media (max-width: 575px) {
+  .order-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .order-header-left-section {
+    gap: 20px;
+  }
+}
+
+/* Order Details */
+.order-details-grid {
+  padding: 40px 32px;
+  display: grid;
+  grid-template-columns: 130px 1fr 240px;
+  gap: 32px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .order-details-grid {
+    grid-template-columns: 120px 1fr;
+    gap: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .order-details-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+/* Product Image */
+.product-image-container {
+  text-align: center;
+}
+
+.product-image-container img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 12px;
+  background-color: #111;
+}
+
+/* Product Info */
+.product-name {
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.product-delivery-date {
+  color: #00d4ff;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.product-quantity {
+  color: #999;
+  margin-bottom: 16px;
+}
+
+/* Action Buttons */
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-self: flex-start;
+}
+
+.buy-again-button {
+  background-color: #00d4ff;
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 160px;
+}
+
+.buy-again-button:hover {
+  background-color: #00eaff;
+  transform: translateY(-2px);
+}
+
+.buy-again-icon {
+  width: 22px;
+}
+
+.track-package-button {
+  background-color: transparent;
+  color: #00d4ff;
+  border: 1px solid #00d4ff;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 160px;
+}
+
+.track-package-button:hover {
+  background-color: #00d4ff;
+  color: #000;
+}
+
+/* Responsive adjustments for buttons */
+@media (max-width: 900px) {
+  .product-actions {
+    grid-column: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-actions {
+    grid-column: auto;
+  }
+  
+  .buy-again-button,
+  .track-package-button {
+    max-width: 100%;
+  }
+}

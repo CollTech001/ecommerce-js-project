@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>COLL Store - Checkout</title>
+    <link rel="shortcut icon" href="./images/mobile-logo.png" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/pages/checkout/checkout-header.css">
+    <link rel="stylesheet" href="styles/pages/checkout/checkout.css">
+  </head>
+  <body>
+    <!-- Modern Checkout Header -->
+    <div class="checkout-header">
+      <div class="header-content">
+        <div class="checkout-header-left-section">
+          <a href="index.html">
+            <img class="logo" src="images/logo.png" alt="COLL">
+            <img class="mobile-logo" src="images/mobile-logo.png" alt="COLL">
+          </a>
+        </div>
+
+        <div class="checkout-header-middle-section js-checkout-header-middle-section">
+          Secure Checkout
+        </div>
+
+        <div class="checkout-header-right-section">
+          <img src="images/icons/checkout-lock-icon.png" alt="Secure Checkout">
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="checkout-container">
+        <div class="page-header">
+          <h1>Complete Your Order</h1>
+          <p>Review your items and proceed to secure payment</p>
+        </div>
+
+        <div class="checkout-grid">
+          <!-- Left: Order Summary -->
+          <div class="order-summary js-order-summary">
+            <!-- Populated by JavaScript -->
+          </div>
+
+          <!-- Right: Payment Summary -->
+          <div class="payment-summary js-payment-summary">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./scripts/checkout.js"></script>
+  </body>
+</html>

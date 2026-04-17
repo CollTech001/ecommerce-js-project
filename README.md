@@ -2,7 +2,7 @@
 
 A modern, fully responsive e-commerce web application built using fundamental web technologies. This project showcases a clean user interface and interactive shopping features.
 
-**🌐 Live Demo:** [View Website](https://github.io)
+**🌐 Live Demo:** [View Website](https://colltech001.github.io/ecommerce-js-project)
 
 ---
 
@@ -46,7 +46,7 @@ To run this project locally, follow these steps:
 
 ## 📸 Screenshots
 
-*(Tip: Add a screenshot of your home page here to make it visually appealing!)*
+![Uploading ecommerce-img.png…]()
 
 ---
 
@@ -66,10 +66,6 @@ Contributions are always welcome! If you have suggestions for new features or im
 5.  Open a Pull Request.
 
 ---
-
-## 📜 Credits & Acknowledgments
-
-Inspired by SuperSimpledev JS Project.
 
 ## 📄 License
 

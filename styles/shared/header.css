@@ -210,4 +210,30 @@
     width: unset;
     gap: 0px;
 }
+
+  .header-middle-section.active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: #0f0f0f; 
+    z-index: 1100;
+    margin: 0;
+    padding: 0 12px; 
+    display: flex;
+    align-items: center;
+  }
+
+  .header-middle-section.active .search-bar {
+    flex: 1; 
+    width: 100%;
+    display: block; 
+  }
+
+  .header-middle-section.active .search-button {
+    display: flex;
+    flex-shrink: 0;
+  }
+
 }

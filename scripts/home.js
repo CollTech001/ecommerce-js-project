@@ -117,20 +117,3 @@ document.querySelectorAll('.js-add-to-cart')
     });
   });
 
-handleSearch();
-
-const searchContainer = document.querySelector('.header-middle-section');
-const searchInput = document.querySelector('.search-bar');
-
-// When user taps the search bar
-searchInput.addEventListener('focus', () => {
-  if (window.innerWidth <= 578) {
-    searchContainer.classList.add('active');
-  }
-});
-
-// When user taps away (blur)
-searchInput.addEventListener('blur', () => {
-  searchContainer.classList.remove('active');
-});
-

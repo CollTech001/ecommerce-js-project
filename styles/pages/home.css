@@ -1,4 +1,4 @@
-/* ==================== HOME / PRODUCTS PAGE - Modern Dark Theme ==================== */
+/* === HOME / PRODUCTS PAGE === */
 
 .main {
   max-width: 1400px;
@@ -8,7 +8,7 @@
   min-height: calc(100vh - 180px);
 }
 
-/* Hero Banner - New modern section */
+/* Hero Banner */
 .hero-banner {
   height: 420px;
   background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), url('https://picsum.photos/id/1015/2000/1200') center/cover no-repeat;
@@ -63,7 +63,6 @@
   font-weight: 700;
 }
 
-/* Rest of your products grid (already restyled earlier) */
 .main {
   max-width: 1400px;
   margin: 0 auto;
@@ -236,7 +235,7 @@
   }
 }
 
-/* Responsive Adjustments */
+/* Responsive */
 @media (max-width: 768px) {
   .products-grid {
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));

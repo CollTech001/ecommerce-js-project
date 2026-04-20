@@ -79,8 +79,6 @@ document.querySelectorAll('.js-track-package-button').forEach((button) => {
     window.location.href = `tracking.html?orderId=${orderId}&productId=${productId}`;
   });
 });
-
-handleSearch();
 }
 
 renderOrdersPage();

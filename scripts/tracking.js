@@ -91,7 +91,6 @@ function renderTrackingPage() {
 }
   // Call updateProgress with orderTime and deliveryTime
   updateProgress(orderTime, deliveryTime);
-  handleSearch();
 }
 
 renderTrackingPage()

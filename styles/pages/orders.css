@@ -1,4 +1,4 @@
-/* ==================== ORDERS PAGE - Modern Premium Layout ==================== */
+/* === ORDERS PAGE - Modern Premium Layout === */
 
 .main {
   max-width: 1100px;
@@ -195,7 +195,7 @@
   color: #000;
 }
 
-/* Responsive adjustments for buttons */
+/* Responsive */
 @media (max-width: 900px) {
   .product-actions {
     grid-column: 2;
